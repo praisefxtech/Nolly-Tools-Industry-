@@ -6,13 +6,14 @@ body{
   font-size: 17px;
   line-height: 1.5em;
   margin: 10px;
+  margin-left: 10px;
 }
 h1, h2{
   text-align: center;
   font-size: 30px;
-  color: white;
+  color: grey;
   background-image: url('a.png');
-  background-position: center left;
+  background-position: center right;
   padding: 6px;
   border-radius: 60px;
 }
@@ -20,9 +21,9 @@ h1, h2{
   text-align: center;
   color: orange;
 }
-@media (max-width: 768px){
+@media (min-width: 768px){
   h1, h2{
-    color: grey !important;
-    background-position: center right;
+    color: white;
+    background-position: center left;
   }
 }
