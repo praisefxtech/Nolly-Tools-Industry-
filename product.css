@@ -5,7 +5,7 @@ body{
   font-family: Sans-Serif, Times New Roman, Comic Sans MS;
   font-size: 17px;
   line-height: 1.5em;
-  margin: 6;
+  margin: 10px;
 }
 h1, h2{
   text-align: center;
@@ -20,9 +20,9 @@ h1, h2{
   text-align: center;
   color: orange;
 }
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
   h1, h2{
-    color: grey;
+    color: grey !important;
     background-position: center right;
   }
 }
