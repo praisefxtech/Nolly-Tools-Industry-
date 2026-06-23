@@ -25,7 +25,7 @@ h1, h2{
 }
 @media screen and (min-width: 768px){
   h1, h2{
-    color: Red;
+    color: Red !important;
     background-position: center left;
   }
 }
