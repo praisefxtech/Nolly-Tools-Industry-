@@ -24,7 +24,7 @@ p{
     margin: 20px 0;
 }
 
-p i{
+p, i{
     margin-right: 50px;
 }
 }
