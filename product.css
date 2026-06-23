@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 body{
-  background-image: url('/b.png');
+  /*background-image: url('/b.png');*/
+  background: grey;
   color: white;
   font-family: Sans-Serif, Times New Roman, Comic Sans MS;
   font-size: 17px;
