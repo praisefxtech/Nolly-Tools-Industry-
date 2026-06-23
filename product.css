@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+  background-image: url('/b.png');
+  color: white;
+  font-family: Sans-Serif, Times New Roman, Comic Sans MS;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 6;
+}
+h1, h2{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  background-image: url('/a.png');
+  background-position: center left;
+  padding: 6px;
+  border-radius: 60px;
+}
+.host{
+  text-align: center;
+  color: orange;
+}
+@media (max-width:768px){
+  h1, h2{
+    color: grey;
+    background-position: center right;
+  }
+}

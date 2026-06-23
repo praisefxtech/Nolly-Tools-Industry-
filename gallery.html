@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="gallery.css"/>
+  </head>
+  <body>
+    <section class="gallery-header">
+    <h1><i class="fa fa-image"></i> Our Gallery</h1>
+    <p class="span">
+        Explore our collection of quality machinery,
+        engine parts, industrial tools, and building materials.
+    </p>
+    <p class="gallery-text">
+      At Nolly Tools Industry, we take pride in supplying
+      high-quality machinery, engine parts, industrial tools,
+      and building materials that meet industry standards.
+      Browse our gallery to see some of the products and
+      equipment available to support your projects.
+      </p>
+</section>
+  <h1 class="head">INDUSTRIAL</h1>
+<section class="gallery">
+  <div class="polaroid">
+        <img src="battery.jpg" alt="Machinery" onclick="openImage(this.src)">
+        <p>Inverter Welder</p>
+    </div>
+
+    <div class="polaroid">
+        <img src="demo.jpg" alt="Machinery" onclick="openImage(this.src)">
+        <p>Jack-hammer</p>
+    </div>
+    <div class="polaroid">
+        <img src="bag.jpg" alt="Machinery" onclick="openImage(this.src)">
+        <p>INGCO 20V 5-in-1 Cordless Combo Kit</p>
+    </div>
+    <div class="polaroid">
+        <img src="drill.jpg" alt="Machinery" onclick="openImage(this.src)">
+        <p>INGCO 20V Cordless Angle Grinder</p>
+    </div>
+</section>
+<h1 class="body">SAFTEY</h1>
+<section class="gallery-2">
+  <div class="polaroid-2">
+    <img src="safe b.jpg" alt="safety" onclick="openImage(this.src)">
+    <p>safety Boot</p>
+  </div>
+  <div class="polaroid-2">
+    <img src="safe bb.jpg" alt="safety" onclick="openImage(this.src)">
+    <p>Safety Rainboot</p>
+  </div>
+  <div class="polaroid-2">
+    <img src="safe c.jpg" alt="safety" onclick="openImage(this.src)">
+    <p>safety Helmet</p>
+  </div>
+  <div class="polaroid-2">
+  <img src="safe g.jpg" alt="safety" onclick="openImage(this.src)">
+    <p> Safety Glooves & Masks</p>
+  </div>
+</section>
+<h1 class="tail">TOOLS</h1>
+<section class="gallery-3">
+  <div class="polaroid-3">
+    <img src="screw.jpg" alt="screw" onclick="openImage(this.src)">
+    <p>INGCO 20V Cordless Impact Wrench</p>
+  </div>
+  <div class="polaroid-3">
+    <img src="wire.jpg" alt="screw" onclick="openImage(this.src)">
+    <p>INGCO 20V Cordless Drill Machine</p>
+  </div>
+  <div class="polaroid-3">
+    <img src="tools.jpg" alt="screw" onclick="openImage(this.src)">
+    <p>Set of Tools</p>
+  </div>
+  <div class="polaroid-3">
+    <img src="box.jpg" alt="screw" onclick="openImage(this.src)">
+    <p>INGCO Hand Tool Set</p>
+  </div>
+</section>
+   <div id="lightbox" onclick="closeImage()">
+  <img id="lightbox-img" src="">
+   </div>
+<script>
+  function openImage(src){
+  document.getElementById('lightbox').style.display = 'flex';
+  document.getElementById('lightbox-img').src = src;
+  }
+  function closeImage(){
+  document.getElementById('lightbox').style.display = 'none';
+  }
+</script>
+  </body>
+</html>

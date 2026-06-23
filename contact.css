@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+  background-image: url('/b.png');
+  color: #f4f4f4;
+  font-size: 18px;
+  margin: 10;
+}
+.contact-info, h1, h2{
+  text-align: center;
+}
+#quote-form{
+    max-width: 700px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#quote-form input,
+#quote-form textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+#quote-form textarea{
+    min-height: 150px;
+    resize: vertical;
+}
+#quote-form input:focus,
+#quote-form textarea:focus{
+    border-color: orange;
+}
+#quote-form button{
+    background: orange;
+    color: black;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+#quote-form button:hover{
+    transform: translateY(-2px);
+    opacity: .9;
+}
+.quote-title{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.whatsapp-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #25D366;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+}

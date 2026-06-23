@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge"/>
+    <meta name="viewport" content="Width, initial-scale= 1.0"/>
+    <meta name="description" content="Nolly Tools Industry is a trusted supplier of machinery, engine parts, industrial tools, and building materials. We provide quality products for construction, engineering, workshops, and industrial projects.">
+    <meta name="keywords" content="machinery, engine parts, building materials, industrial tools, construction materials, spare parts, generators, engineering supplies, workshop equipment, Nolly Tools Industry">
+    <meta name="author" content="Nolly Tools Industry">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Nolly Tools Industry | Machinery, Engine Parts & Building Materials</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="logo.png" alt="Nolly Tools Industry logo">
+      <h2 class="hero-title">Nolly Tools Industry</h2>
+    </div>
+    <nav class="navbar">
+      <button class="menu-btn" onclick="openMenu()">☰</button>
+      <ul class="desktop-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="gallery.html">Gallary</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div id="sidebar" class="sidebar">
+
+    <span class="close-btn"
+    onclick="closeMenu()">&times;</span>
+
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="product.html">Products</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact Us</a>
+    </div>
+    
+    <div id="sidebar" class="sidebar">
+      <a href="index.html" onclick="closeMenu()">Home</a>
+      <a href="about.html" onclick="closeMenu()">About Us</a>
+      <a href="product.html" onclick="closeMenu()">Products</a>
+      <a href="gallery.html" onclick="closeMenu()">Gallery</a>
+      <a href="contact.html" onclick="closeMenu()">Contact Us</a>
+    </div>
+    <script>
+      function openMenu(){
+        document.getElementById("sidebar").style.width= "250px";
+      }
+      function closeMenu(){
+        document.getElementById("sidebar").style.width= "0";
+      }
+    </script>
+    <div class="up img">
+      <img src="a.png" alt="background img">
+    </div>
+    <div class="home">
+      <h1>Welcome to <span>Nolly Tools Industry</span></h1>
+      <h3>Your trusted partner for quality machinery, engine parts, industrial equipment, and building materials.</h3>
+      
+      <p>At Nolly Tools Industry, we are committed to supplying reliable products that power businesses, construction projects, workshops, and industries. From engine components and heavy-duty machinery parts to construction and building materials, we provide solutions designed to meet the highest standards of quality and durability.</p>
+      
+      <p>With years of experience in the industry, we understand the importance of dependable equipment and materials. That is why we carefully source and supply products that help our customers complete their projects efficiently and successfully.</p>
+      
+      <p>Whether you are a contractor, engineer, mechanic, builder, or business owner, we are dedicated to providing the products and support you need to get the job done right.</p>
+      
+      <h4>Quality Products. Reliable Service. Trusted Solutions.</h4>
+      
+      <div class="homepage">
+        <h2>Why Choose Nolly Tools Industry?</h2>
+        
+        <h2><i class="fa fa-check-circle"></i> Quality Products</h2>
+        <p>We supply reliable machinery, engine parts, industrial tools, and building materials sourced from trusted manufacturers to ensure durability and performance.</p>
+        
+        <h2><i class="fa fa-tags"></i> Competitive Pricing</h2>
+        <p>We offer quality products at fair and competitive prices, helping our customers get the best value for their investment.</p>
+        
+        <h2><i class="fa fa-briefcase"></i> Industry Experience</h2>
+        <p>With extensive knowledge of machinery, spare parts, and construction materials, we provide expert guidance to help customers make informed decisions.</p>
+        
+        <h2><i class="fa fa-truck"></i> Reliable Supply</h2>
+        <p>We maintain a strong supply network to ensure products are available when customers need them, reducing delays and keeping projects on schedule.</p>
+        
+        <h2><i class="fa fa-users"></i> Customer Satisfaction</h2>
+        <p>Our customers are our priority. We are committed to providing excellent service, prompt support, and lasting business relationships.</p>
+        
+        <h2><i class="fa fa-handshake"></i> Trusted Partner</h2>
+        <p>Contractors, mechanics, engineers, businesses, and individual customers trust Nolly Tools Industry for dependable products and professional service.</p>
+      </div>
+    </div>
+    <footer id="main-footer">
+      <p>Nolly Tools Industry © 2026. All Rights Reserved.
+       Your best supplier</p>
+    </footer>
+  </body>
+</html>

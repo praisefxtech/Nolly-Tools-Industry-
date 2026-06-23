@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="contact.css">
+  <title>Contact Nolly Tools Industry | Get a Quote Today</title>
+  <meta name="description" content="Contact Nolly Tools Industry for machinery, engine parts, industrial tools, and building materials. Reach us by phone, WhatsApp, email, or our contact form.">
+  </head>
+  <body>
+    <div class="contact-info">
+    <h1><i class="fa fa-phone"></i> Contact Us</h1>
+    <p>We would love to hear from you. Contact Nolly Tools Industry for inquiries, quotations, product information, and business partnerships</p>
+    
+    <h2>Get In Touch</h2>
+
+    <p><i class="fa fa-phone"></i> Phone: +234 806 073 3294</p>
+
+    <p><i class="fa fa-message"></i> WhatsApp: +234 813 626 7973</p>
+
+    <p><i class="fa fa-envelope"></i> Email: nollytoolsindustry4@gmail.com</p>
+
+    <div class="contact-info 2">
+
+    <h2>Our Locations</h2>
+
+    <p>
+        <i class="fa fa-location-dot"></i>
+        Branch 1: Shop EO 95, Gift line, EDA Plaza opp Chida int'l hotel, Jabi-FCT Abuja, Nigeria
+    </p>
+
+    <p>
+        <i class="fa fa-location-dot"></i>
+        Branch 2: Shop STC 002, Gift line, EDA Plaza opp Chida int'l hotel, Jabi-FCT-Abuja, Nigeria
+    </p>
+</div>
+</div>
+
+<section>
+  <div class="quote-title">
+  <h2><i class="fa fa-file-invoice"></i> Request a Quote</h2>
+  </div>
+  <form id="quote-form">
+
+    <input type="text" name="name"
+    placeholder="Full Name" required>
+
+    <input type="email" name="email"
+    placeholder="Email Address" required>
+
+    <input type="tel" name="phone"
+    placeholder="Phone Number">
+
+    <input type="text" name="product"
+    placeholder="Product Needed">
+
+    <textarea name="message"
+    placeholder="Describe your requirements..."
+    rows="6"></textarea>
+
+    <button type="submit">
+        Request Quote
+    </button>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+
+emailjs.init({
+    publicKey: "QVX9f6GwdUwD1aXc3"
+});
+
+document.getElementById("quote-form")
+.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    emailjs.sendForm(
+        "service_psv64am",
+        "template_5h6d60i",
+        this
+    )
+    .then(function(){
+
+        alert("Quote request sent successfully!");
+
+        document.getElementById("quote-form").reset();
+
+    })
+    .catch(function(error){
+
+        alert("Failed to send quote request.");
+
+        console.log(error);
+
+    });
+
+});
+
+</script>
+</form>
+</section>
+  <a href="https://api.whatsapp.com/send?phone=2348136267973&text=Hello%20Nolly%20Tools%20Industry,%20I%20would%20like%20to%20request%20a%20quote."
+  class="whatsapp-btn"
+  target="_blank">
+
+  <i class="fa fa-message"></i> Request Quote via WhatsApp
+  </a>
+  </body>
+</html>
