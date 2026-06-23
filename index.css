@@ -76,7 +76,7 @@ body{
   color: black;
 }
 .sidebar a:visited{
-  color: lightgrey;
+  color: darkblue;
 }
 .menu-btn{
     color: #fff;
@@ -127,7 +127,7 @@ h1 span{
       color: red;
     }
     a:visited{
-      color: #fff;
+      color: coral;
     }
     .sidebar{
         display: none;
