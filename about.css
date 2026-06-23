@@ -5,7 +5,7 @@ body{
   font-family: Sans-Serif, Comic Sans MS;
   font-size: 16px;
   line-height: 1.5em;
-  margin: 10;
+  margin: 20;
 }
 .body{
   text-align: center;
@@ -25,6 +25,6 @@ p{
 }
 
 p i{
-    margin-right: 20px;
+    margin-right: 50px;
 }
 }
