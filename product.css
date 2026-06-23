@@ -12,8 +12,8 @@ body{
 h1, h2{
   text-align: center;
   font-size: 40px;
-  color: White;
   background-image: url('a.png');
+  color: white !important;
   background-position: center right;
   padding: 6px;
   border-radius: 60px;
