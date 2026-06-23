@@ -18,12 +18,9 @@ h1, h2{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-@media (max-width: 768px){
-p{
-    margin: 20px 0;
-}
+@media screen and (max-width: 768px){
 
-p .fa{
+i{
     margin-right: 50px;
 }
 }
