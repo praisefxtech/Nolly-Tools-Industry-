@@ -3,7 +3,7 @@ body{
   background-image: url('b.png');
   color: white;
   font-family: Sans-Serif, Times New Roman, Comic Sans MS;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 1.5em;
   margin: 10px;
@@ -11,7 +11,7 @@ body{
 }
 h1, h2{
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: red;
   background-image: url('a.png');
   background-position: center right;
@@ -22,7 +22,7 @@ h1, h2{
   text-align: center;
   color: orange;
 }
-@media (min-width: 768px){
+@media screen and(min-width: 768px){
   h1, h2{
     color: white;
     background-position: center left;
