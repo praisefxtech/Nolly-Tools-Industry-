@@ -4,6 +4,10 @@ body{
   color: #f4f4f4;
   font-size: 18px;
   margin: 10;
+  line-height: 2;
+}
+i{
+  margin-right: 10px;
 }
 .contact-info, h1, h2{
   text-align: center;
