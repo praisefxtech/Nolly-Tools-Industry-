@@ -10,7 +10,7 @@ body{
 .body{
   text-align: center;
 }
-i{
+fa{
   70px
 }
 h1, h2{
@@ -23,7 +23,7 @@ h1, h2{
 }
 @media screen and (min-width: 768px){
 
-i{
+fa{
     margin-right: 2px;
 }
 }
