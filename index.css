@@ -53,7 +53,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    background-image: url('/a.png');
+    background-image: url('a.png');
     background-color: #111;
     overflow-x: hidden;
     transition: 0.4s;
