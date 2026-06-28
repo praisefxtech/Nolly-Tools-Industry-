@@ -248,21 +248,21 @@ h1{
 }
 .gallery-grid img{
   display: block;
-  width: 100%;
+  width: 50%;
   height: 100%;
   object-fit: cover;
 }
 .gallery-grid:nth-child(9){
   transform: rotate(4deg);
-  width: 150%;
+  width: 80%;
 }
 .gallery-grid:nth-child(10){
   transform: rotate(-4deg);
-  width: 150%;
+  width: 80%;
 }
 .gallery-grid:nth-child(21){
   align-self: center;
-  width: 200%;
+  width: 80%;
 }
 .gallery-grid img:hover{
     transform:translateY(-8px);
