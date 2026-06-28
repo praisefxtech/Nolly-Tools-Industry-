@@ -226,7 +226,7 @@ h1{
     justify-content: center;
     gap: 15px;
     padding: 10px;
-    background: mysti-blue;
+    background: coral;
 }
 
 .gallery-extension h2{
@@ -243,12 +243,12 @@ h1{
 
 .gallery-grid{
    background: gold;
-    width: 45%;
+    width: 100%;
     padding: 3px 5px 6px
     box-shadow: 0 5px 15px rgba(0,0,0,.3);
     text-align: center;
     transition: .4s;
-    border: 3px solid blue;
+    border: 3px solid black;
 }
 .gallery-grid img{
   display: block;
@@ -262,13 +262,13 @@ h1{
   height: 100px;
 }
 .gallery-grid:nth-child(10){
-  transform: rotate(-4deg);
+  transform: rotate(5deg);
   width: 80%;
   height: 100px;
 }
 .gallery-grid:nth-child(23){
   align-self: center;
-  width: 100%;
+  width: 150%;
   height: 100px;
 }
 .gallery-grid img:hover{
