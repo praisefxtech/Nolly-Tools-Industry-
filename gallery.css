@@ -248,8 +248,8 @@ h1{
 }
 .gallery-grid img{
   display: block;
-  width: 110%;
-  height: 100%;
+  width: 300%;
+  height: 200%;
   object-fit: cover;
 }
 .gallery-grid:nth-child(9){
