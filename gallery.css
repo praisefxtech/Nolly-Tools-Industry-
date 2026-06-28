@@ -249,6 +249,7 @@ h1{
   box-shadow: 0 5px 15px rgba(0,0,0,.3);
   transition: .4s;
   border: 2px dotted coral;
+  padding: 3px 5px 6px
 }
 .gallery-grid:nth-child(9){
   transform: rotate(4deg);
