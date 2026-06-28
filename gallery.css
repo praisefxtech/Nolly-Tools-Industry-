@@ -222,6 +222,9 @@ h1{
 .gallery-extension{
     padding: 60px 8%;
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .gallery-extension h2{
@@ -237,9 +240,6 @@ h1{
 }
 
 .gallery-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
    width: 45%;
    box-shadow: 0 5px 15px rgba(0,0,0,.3);
    transition: .4s;
