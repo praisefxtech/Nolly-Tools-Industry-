@@ -240,16 +240,17 @@ h1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-}
-
-.gallery-grid img{
-  width: 110%;
-  height: 100%;
-  object-fit: cover;
+  width: 45%;
   box-shadow: 0 5px 15px rgba(0,0,0,.3);
   transition: .4s;
   border: 2px dotted coral;
-  padding: 3px 5px 6px
+  padding: 3px 5px 6px;
+}
+.gallery-grid img{
+  display: block;
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
 }
 .gallery-grid:nth-child(9){
   transform: rotate(4deg);
