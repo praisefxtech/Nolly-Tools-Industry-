@@ -248,14 +248,15 @@ h1{
   object-fit: cover;
   box-shadow: 0 5px 15px rgba(0,0,0,.3);
   transition: .4s;
-  border: 5px dotted coral;
+  border: 2px dotted coral;
+  border-radius: 10px;
 }
 .gallery-grid:nth-child(9){
-  transform: rotate(10deg);
+  transform: rotate(4deg);
   width: 150%;
 }
 .gallery-grid:nth-child(10){
-  transform: rotate(-10deg);
+  transform: rotate(-4deg);
   width: 150%;
 }
 .gallery-grid:nth-child(21){
