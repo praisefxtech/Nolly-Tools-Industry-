@@ -239,7 +239,7 @@ h1{
 .gallery-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 20px;
 }
 
 .gallery-grid img{
@@ -248,15 +248,20 @@ h1{
   object-fit: cover;
   box-shadow: 0 5px 15px rgba(0,0,0,.3);
   transition: .4s;
-  border: 3px dotted coral;
+  border: 5px dotted coral;
+  border-radius: 30px;
 }
-. gallery-grid:nth-child(9){
+.gallery-grid:nth-child(9){
   transform: rotate(10deg)
   width: 150%;
 }
-. gallery-grid:nth-child(10){
+.gallery-grid:nth-child(10){
   transform: rotate(-10deg)
   width: 150%;
+}
+.gallery-grid:nth-child(21){
+  align-self: center;
+  width: 200%;
 }
 .gallery-grid img:hover{
     transform:translateY(-8px);
