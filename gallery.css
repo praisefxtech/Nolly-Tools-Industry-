@@ -238,12 +238,16 @@ h1{
 
 .gallery-grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    text-align: center;
+    transition: .4s;
+    border: 3px solid blue;
 }
 
 .gallery-grid img{
-  width: 70%;
+  width: 90%;
   height: 100%;
   object-fit: cover;
 }
